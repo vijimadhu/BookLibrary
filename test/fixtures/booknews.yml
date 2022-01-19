@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  category: MyString
+  bookname: MyString
+  description: MyText
+  price: 1.5
+  bookarrivals: 1
+  language: MyString
+  author: MyText
+  itemcondition: MyText
+  availability: MyString
+
+two:
+  category: MyString
+  bookname: MyString
+  description: MyText
+  price: 1.5
+  bookarrivals: 1
+  language: MyString
+  author: MyText
+  itemcondition: MyText
+  availability: MyString

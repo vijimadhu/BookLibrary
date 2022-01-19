@@ -1,0 +1,44 @@
+ <style>
+body{
+ background-image: url|asset|images|login;
+ background-color: pink;
+}
+form {
+    display: inline-block;
+    text-align: center;
+    
+}
+</style>
+<h2 style="text-align:center">Login Form</h2>
+<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+<div style="float:left;"> 
+ <img src = "/assets/login.jpg" alt = "login.jpg" / style="width:100vw; height:90vh;">
+   </div>
+  
+  <%= form_with model:@user , url: login_path do |form|  %>
+
+  <div class="container" style="align:center">
+<h1 style="text-align:center">Login</h1>
+
+<hr>
+    
+
+    <%= form.label :email %>
+    <%= form.email_field :email %>
+ 
+    <%= form.label :password %>
+    <%= form.password_field :password %>
+ 
+    
+  
+    <%= form.submit "Submit" %>
+    </div>
+ <% end %>
+
+
+
+
+
+
+
+  
